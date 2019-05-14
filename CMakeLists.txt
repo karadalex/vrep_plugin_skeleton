@@ -17,6 +17,7 @@ link_directories("/opt/ros/hydro/lib")
 link_directories("/opt/ros/indigo/lib")
 link_directories("/opt/ros/jade/lib")
 link_directories("/opt/ros/kinetic/lib")
+link_directories("/opt/ros/melodic/lib")
 
 add_library(v_repExtRosSkeleton src/vrep_plugin_skeleton.cpp src/v_repLib.cpp src/ros_server_skeleton.cpp)
 
